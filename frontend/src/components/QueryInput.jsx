@@ -33,8 +33,16 @@ function QueryInput() {
       />
       <button onClick={handleAsk} className="bg-blue-600 text-white px-4 py-2">Ask</button>
 
-      {response && (
+      {/* {response && (
         <pre className="mt-4 p-4 border bg-gray-100">{response}</pre>
+      )} */}
+       {response && (
+        <div className="mt-6">
+          <h3 className="text-lg font-semibold text-gray-800 mb-2">📋 Response</h3>
+          <div className="bg-white border border-gray-300 rounded-lg p-4 text-sm text-gray-700 max-h-64 overflow-auto shadow-inner whitespace-pre-wrap">
+            {response}
+          </div>
+        </div>
       )}
     </div>
   );
