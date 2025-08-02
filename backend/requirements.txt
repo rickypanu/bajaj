@@ -25,7 +25,8 @@ typing-extensions==4.14.1
 
 # NLP / Embedding (lightweight)
 sentence-transformers==5.0.0
-torch==2.7.1+cpu
+# torch==2.7.1+cpu
+torch==2.7.1
 transformers==4.54.1
 tokenizers==0.21.4
 scikit-learn==1.7.1
