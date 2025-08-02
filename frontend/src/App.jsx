@@ -12,7 +12,7 @@ function App() {
         </div>
 
         <div className="border-t border-gray-200 pt-6 space-y-4">
-          <FileUpload />
+          {/* <FileUpload /> */}
           <QueryInput />
         </div>
       </div>
