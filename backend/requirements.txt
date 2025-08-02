@@ -1,9 +1,43 @@
-fastapi
-uvicorn
+# fastapi
+# uvicorn
+# python-multipart
+# sentence-transformers
+# faiss-cpu
+# PyMuPDF
+# python-docx
+# python-dotenv
+# google-generativeai
+
+# Core
+fastapi==0.116.1
+uvicorn==0.35.0
 python-multipart
-sentence-transformers
-faiss-cpu
-PyMuPDF
-python-docx
 python-dotenv
-google-generativeai
+
+# File/document handling
+PyMuPDF==1.26.3
+python-docx==1.2.0
+Pillow==11.3.0
+
+# CORS, typing, etc.
+annotated-types==0.7.0
+typing-extensions==4.14.1
+
+# NLP / Embedding (lightweight)
+sentence-transformers==5.0.0
+torch==2.7.1+cpu
+transformers==4.54.1
+tokenizers==0.21.4
+scikit-learn==1.7.1
+scipy==1.16.1
+numpy==2.3.2
+
+# Optional: Only if you're actively using it
+faiss-cpu==1.11.0.post1
+
+# Optional: Only if actually using Gemini
+google-generativeai==0.8.5
+google-api-python-client
+google-auth
+google-ai-generativelanguage
+
