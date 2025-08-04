@@ -12,7 +12,7 @@ fastapi
 uvicorn
 python-multipart
 sentence-transformers==2.2.2
-torch==2.2.2+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.2.2+cpu 
 scikit-learn
 PyMuPDF
 python-docx
