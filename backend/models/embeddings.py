@@ -10,15 +10,3 @@ def embed_and_index_chunks(chunks):
     index.add(embeddings)
     return index, embeddings
 
-# from sentence_transformers import SentenceTransformer
-# from sklearn.neighbors import NearestNeighbors
-# import numpy as np
-
-# model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
-
-# def embed_and_index_chunks(chunks):
-#     embeddings = model.encode(chunks, convert_to_numpy=True)
-#     index = NearestNeighbors(n_neighbors=5, metric='euclidean')
-#     index.fit(embeddings)
-#     return index, embeddings
-
